@@ -1,0 +1,4 @@
+def count_word(string):
+   return len(string.split())
+phrase = input("Ecrit une phrase: ")
+print(count_word(phrase))
